@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+aside {
+	position: absolute;
+	width: 12.5vw;
+	height: 100vh;
+	left: 0;
+	top: 0;
+    background: rgb(20,142,190);
+    background: radial-gradient(circle, rgba(20,142,190,1) 0%, rgba(70,164,252,1) 100%); 
+}
+#meny {
+	text-align: center;
+}
+#logo {
+	width: 100%;
+}
+.link {
+        display: block;
+        text-decoration: none;
+        font-size: 17px;
+        padding: 40px;
+        margin: 30%;
+        border: transparent;
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+        background: dodgerblue;
+        color: white;
+        border-radius: 4px;
+       }
+       
+       .link:hover {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+       }
+       
+       .link:active {
+        transform: translate(0em, 0.2em);
+       } 
+
+
+h1 {
+	text-align: center;
+	margin: 2rem;
+}
+main {
+	margin-left: 14vw;
+	padding: 2rem;
+}
+.image {
+	display: inline-block;
+	text-align: start;
+	margin: 50px;
+}
+.css {
+	height: 200px;
+	width: 330px;
+	border-radius: 2%;
+}
+#cssid {
+	float: right;
+	height: auto;
+	width: 35%;
+	padding: 5px;
+	box-shadow: 0px 1px 5px;
+	border-radius: 1%;
+	margin: 20px;
+}
+#last {
+	margin-top: 30vh;
+}
+footer {
+	display: block;
+	margin-left: 14vw;
+	height: 10vh;
+	text-align: center;
+}
+/* Media Queries */
+
+@media (max-width: 768px) {
+	p {
+		font-size: 24px;
+	}
+	aside {
+		width: 100%;
+		height: auto;
+		text-align: center;
+		position: relative;
+	}
+	#logo {
+		width: 60%;
+		height: auto;
+		margin: 10px 0;
+	}
+	main {
+		margin-left: 0;
+		padding: 1rem;
+	}
+	#title {
+		margin-right: 0;
+	}
+	p {
+		font-size: 22px;
+	}
+	#second {
+		margin-top: 40vh;
+		font-size: large;
+		display: block;
+	}
+	.link {
+		width: 80px;
+		height: 40px;
+		margin: 10px auto;
+		font-size: large;
+	}
+	#cssid {
+		width: 320px;
+		height: 200px;
+		display: flex;
+	}
+	#last {
+		margin-top: 20vh;
+	}
+}
